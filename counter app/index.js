@@ -10,7 +10,8 @@ incrementBtn.onclick = function increment() {
     countEl.innerText = count
 }
 
-function save() {
+
+saveBtn.onclick = function save() {
     let countStr = count + " - "
     saveEl.innerText += countStr
     countEl.textContent = 0
