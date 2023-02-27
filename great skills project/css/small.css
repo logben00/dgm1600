@@ -1,0 +1,85 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.who {
+    display :flex;
+    justify-content: space-between;
+    padding: 1rem 1vw;
+}
+
+section.about {
+    display: flex;
+    background-color: #465;
+    padding: 1rem 1vw;
+}
+
+
+.popbox {
+    padding-left: 2vw;
+    color: #white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.popbox ul {
+    margin: 0;
+    padding: .5rem 1vw;
+    background-color: rgba(0,0,0,0.1);
+    font-size: .8rem;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.popbox ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.assignments {
+    padding: 1rem 2%;
+
+}
+.assignments a {
+    display: block; 
+    padding: .8rem;
+    margin-bottom: .5rem;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+    background-color: #eee;
+    color: #456;
+    text-decoration: none;
+}
+.assignments a:hover {
+    background-color: #ddd;
+    
+}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
