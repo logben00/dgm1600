@@ -1,0 +1,68 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Montserrat', sans-serif;
+    --extralightweight: 200px;
+    --regularweight: 400px;
+}
+
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+nav ul{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+nav a {
+    padding: .8rem .5rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: var(--extralightweight);
+}
+nav a:hover {
+    background-color: black;
+    color: aquamarine;
+}
+
+
+
+section#about {
+    background-color: green;
+    height: 100vh;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section#about h1 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'climate crisis';
+}
+section#about h2 {
+    font-size: 1rem;
+    color: white;
+    font-family: 'montserrat';
+}
+
+section#projects {
+    background-color: brown;
+    height: 100vh;
+}
+
+section#contact {
+    background-color: black;
+    height: 100vh;
+}

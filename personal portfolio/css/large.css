@@ -1,0 +1,15 @@
+@media only screen and (min-width: 60rem) {
+
+    section#about h1 {
+        font-size: 5rem;
+        color: white;
+        font-family: 'climate crisis';
+    }
+    section#about h2 {
+        font-size: 3rem;
+        color: white;
+        font-family: 'montserrat';
+    }
+
+
+} /* end media query*/
