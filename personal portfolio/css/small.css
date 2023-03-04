@@ -15,7 +15,7 @@ body{
 nav {
     position: sticky;
     top: 0px;
-    background-color: white;
+    background-color: #F2EDD5;
 }
 nav ul{
     margin: 0;
@@ -31,14 +31,14 @@ nav a {
     font-weight: var(--extralightweight);
 }
 nav a:hover {
-    background-color: black;
-    color: aquamarine;
+    background-color: #BF2C47;
+    color: #F2EDD5;
 }
 
 
 
 section#about {
-    background-color: green;
+    background-color: #F2EDD5;
     height: 100vh;
     padding: 50px;
     text-align: center;
@@ -48,21 +48,83 @@ section#about {
 }
 section#about h1 {
     font-size: 2rem;
-    color: white;
+    color: #BF2C47;
     font-family: 'climate crisis';
 }
 section#about h2 {
     font-size: 1rem;
-    color: white;
+    color: black;
     font-family: 'montserrat';
 }
 
 section#projects {
-    background-color: brown;
     height: 100vh;
+    padding: 50px;
+    text-align: center;
+    font-family: 'climate crisis';
+    color:#F2EDD5
 }
 
+section#projects {
+    background-color: #D9857E;
+    min-height: 100vh;
+    padding: 50px;
+    
+}
+
+figure {
+    position: relative;
+    text-align: center;
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    color: #F2EDD5;
+    font-family: 'montserrat';
+    width: 100%;
+    /*background-color: rgba(255, 255, 255, 0.8); /* add a semi-transparent white background */
+    padding: 10px;
+  }
+  
+  figure:hover {
+    background-color: #BF2C47;
+    color: #F2EDD5;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+     border-radius: 10px 10px 10px 10px;
+      }
+      
+      
+div.theParent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.theParent a {
+    flex-basis: 100%;
+    padding: 1rem 2vw;
+}
+
+section#proects h1 {
+    font-size: 2rem;
+    color: #BF2C47;
+    font-family: 'climate crisis';
+}
+
+section#projects figure {
+margin: 0;
+width: 100%;
+}
+
+section#projects image {
+    width: 100%;
+    }
+
 section#contact {
-    background-color: black;
+    background-color: #BF2C47;
     height: 100vh;
 }
