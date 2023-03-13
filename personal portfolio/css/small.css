@@ -127,4 +127,45 @@ section#projects image {
 section#contact {
     background-color: #BF2C47;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#contact h2{
+    color: #F2EDD5;
+    font-family: "climate crisis";
+    font-size: large;
+}
+
+section#contact ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+section#contact li {
+    list-style-type: none;
+}
+
+section#contact a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F2EDD5;
+    text-decoration: none;
+    transition: translate 0.3s ease-in-out;
+            
+}
+
+section#contact a img{
+    height: 50px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    fill: #F2EDD5;
+}
+
+section#contact a:hover{
+    text-decoration: underline;
+    transform: translateY(10px);
 }
