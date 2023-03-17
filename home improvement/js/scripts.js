@@ -20,10 +20,10 @@ document.querySelector('#carpet').innerHTML = "";
     const height = Number(document.querySelector('#height').value);
     console.log(height);
 
-    const paintType = document.querySelector('#qualtiy').selectedOptions[0].text;
+    const paintType = document.querySelector('#quality').selectedOptions[0].text;
     console.log(paintType)
 
-    const quality = document.querySelector('#qualtiy').selectedOptions[0].value;
+    const quality = document.querySelector('#quality').selectedOptions[0].value;
     console.log(quality)
 
     let carpet = Math.ceil(( width * depth ) / 9)
