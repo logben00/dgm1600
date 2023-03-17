@@ -4,10 +4,13 @@ let addLI = (list, message) => {
    let myListItem = document.createElement('li');
     myListItem.textContent = message 
     theList.appendChild(myListItem)
-
 } // end of the add list item function
 
 document.querySelector('#calculate').addEventListener('click', () => {
+    // clean out the existing lists
+document.querySelector('#paint').innerHTML = "";
+document.querySelector('#carpet').innerHTML = "";
+
     const width = Number(document.querySelector('#width').value);
     console.log(width);
 
