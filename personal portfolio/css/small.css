@@ -132,9 +132,11 @@ section#contact {
     justify-content: center;
 }
 
-section#contact h2{
+section#contact h1{
     color: #F2EDD5;
     font-family: "climate crisis";
+    align-items: center;
+    justify-content: center;
 }
 
 section#contact ul{
@@ -152,7 +154,7 @@ section#contact a{
     justify-content: center;
     color: #F2EDD5;
     text-decoration: none;
-    transition: translate 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
             
 }
 
