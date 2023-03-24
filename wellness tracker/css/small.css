@@ -1,0 +1,89 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+h1 {
+    background-color: #377BA6;
+    margin: -1% 0 30px 0;
+    padding: 20px 0 10px 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color:#F2E8C9;  
+}
+
+/*switches*/
+
+.hideMe {display: none;}
+.showMe {display:block;}
+
+/*New Profile Styling*/
+#newProfile {
+    margin: -30px 0 0 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #F2E8C9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+#newProfile label {
+    display: block;
+    padding: 1%;
+}
+#newProfile input, #newProfile select {
+border-radius: 3px;
+border-style: none;
+height: 20px;
+}
+#newProfile input[type="submit"]{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: olive;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    padding: 5px;
+}
+/*Current Profile Styling*/
+#myProfile {
+    background-color: #96D2D9;
+    font-family: 'Overpass', sans-serif;
+    margin: -1% 0 30px 0;
+    padding: 20px 0 10px 0;
+    width: 100%;
+    
+    text-align: center;
+    
+}
+#myProfile section {
+    background-color: #F2E8C9;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+}
+#myProfile img {
+max-width: 50%;
+}
+#myProfile p {
+text-align: center;
+font-size: 20px;
+}
+#myProfile button {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: olive;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    padding: 5px;
+}
