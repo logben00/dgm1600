@@ -109,7 +109,7 @@ div.theParent a {
     padding: 1rem 2vw;
 }
 
-section#proects h1 {
+section#projects h1 {
     font-size: 2rem;
     color: #BF2C47;
     font-family: 'climate crisis';
@@ -135,8 +135,10 @@ section#contact {
 section#contact h1{
     color: #F2EDD5;
     font-family: "climate crisis";
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
 section#contact ul{
