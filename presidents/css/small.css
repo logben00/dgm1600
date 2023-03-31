@@ -6,10 +6,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 header {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-    background-color: #432818;
-    color:#FFE6A7;
+    background-color: rgb(52, 95, 52);
+    color: rgb(255, 255, 255);;
     padding: 20px 0 20px 0;
     margin-bottom: 2%;
     font-weight: 500;
@@ -18,28 +18,28 @@ header {
 #cards {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     
 }
 #cards p {
     font-size: 20px;
     padding: 2px;
-    background-color: #432818;
+    background-color: rgb(52, 52, 52);
     padding: 10px 0 10px 0;
     margin-top: -2px;
     border-radius: 5px;
     margin-left: -2px;
     margin-right: -2px;
-    color: #FFE6A7;
+    color: white;
 }
 #cards figure {
     text-align: center;
     margin: 0 2%;
     padding: 2px;
     flex-basis: 96%;
-    background-color: #BB9457;
+    background-color: rgb(223, 223, 223);
     margin-bottom: 2%;
-    box-shadow: 7px 7px 5px #432818;
+    box-shadow: 7px 7px 5px #222222;
     border-radius: 10px;
     
 }
