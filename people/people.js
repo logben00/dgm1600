@@ -1,4 +1,4 @@
-[
+export const people = [
     {
         "name": "Luke Skywalker",
         "height": "172",
