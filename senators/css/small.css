@@ -3,4 +3,71 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*  apply a natural box layout model to all elements  */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+#allCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+nav {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    background-color: #0d6537;
+    color: white;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#allCards figure {
+    margin: 10px;
+    padding: 0;
+    width: 150px;
+    text-align: center;
+    flex-basis: 96%;
+}
+
+#allCards figure.Democrat {
+    border: solid 4px #2B4F82;
+    background-color: #FCF6EE;
+}
+#allCards figure.Republican {
+    border: solid 4px #B61624;
+    background-color: #FCF6EE;
+}
+#allCards figure.other {
+    border: solid 4px #69892F;
+    background-color: #FCF6EE;
+}
+
+#allCards img {
+    width: 50%;
+
+}
+#allCards figcaption {
+    text-align: center;
+    margin: 5px;
+}
+footer {
+    text-align: center;
+    background-color: #b0c4b1;
+    padding: 1px;
+}

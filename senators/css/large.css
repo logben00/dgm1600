@@ -1,3 +1,29 @@
 @media only screen and (min-width: 60rem) {
-
+    main {max-width: 75rem; margin: auto;}
+    #allCards figure {
+        flex-basis: 29%;
+    }
+    
 } /* end media query*/
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #b0c4b1;
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100px;
+    border-style: none;
+    background-color: #b0c4b1;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+button:hover {
+    background-color: #457B9D;
+    
+}
