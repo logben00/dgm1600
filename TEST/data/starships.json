@@ -1,4 +1,4 @@
-MyTarget.appendChild(allShips) [
+[
     {
         "name": "Executor",
         "model": "Executor-class star dreadnought",

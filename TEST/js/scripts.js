@@ -5,7 +5,7 @@ const myViewer =document.querySelector('main')
 
 
 // go grab the data and then wait for the result 
-fetch('/data/starships.json')
+fetch("/data/starships.json")
     .then((response) => response.json())
 .then((shipArray) => {
     console.log(shipArray)
