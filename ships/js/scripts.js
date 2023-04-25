@@ -1,3 +1,5 @@
+import {ship} from "ships/data/starships.json"
+
 //add links to the html
 const myNavigation = document.querySelector('nav')
 const myViewer =document.querySelector('main')
@@ -5,7 +7,7 @@ const myViewer =document.querySelector('main')
 
 
 // go grab the data and then wait for the result 
-fetch('/data/starships.json')
+fetch("/Users/logben/Documents/GitHub/dgm1600/ships/data/starships.json")
     .then((response) => response.json())
 .then((shipArray) => {
     console.log(shipArray)
