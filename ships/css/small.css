@@ -14,7 +14,7 @@ body {
 
 header h1 {
     text-align: center;
-    background-color: #d8a358;
+    background-color: #F2935C;
     color: white;
     padding: 10px;
     margin: 0;
@@ -27,9 +27,9 @@ nav {
 }
 nav button {
 width: 100%;
-background-color: #0F4C5C;
+background-color: #D96685;
 color: white;
-border-color: #85D55D; 
+border-color: #32738C; 
 border-style: solid;
 margin: 2px;
 padding: 5px;
@@ -42,7 +42,7 @@ border-color:  #037971 ;/* #EA6A1*/
 
 main {
     /*ship viewer*/
-    color: white;
+    color: #F27052
 }
 
 main figure {
