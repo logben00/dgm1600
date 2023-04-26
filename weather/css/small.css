@@ -1,0 +1,99 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: 'Dongle', sans-serif;    
+    background-color: #ffffff;
+    
+}
+
+header {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: -5px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: auto 80px; /* last number will be 42 with right icon*/
+    background-color: #3caa90;
+}
+header span:nth-child(2) {
+    padding: .5rem;
+}
+p {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: -10px;
+}
+#town {
+    padding: .5rem;
+}
+aside {
+    display: none;
+}
+aside.show {
+    display: block;
+    position: absolute;
+    top: 96px;
+    height: 317px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 1rem 2vw;
+}
+#applyZip {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #faf3dd;
+    padding: 4px;
+}
+#newZip {
+    border-style: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+#weatherCard {
+    background-color: #9e9e9e;
+    border-radius: 5px;
+    margin: 10px;
+}
+p.temp {
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+p.date {
+    background-color: #b799b5;/* #f9dcc4; #F7EBC9; */
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+   font-size: 20px;
+}
+p.feel {
+    font-size: 15px;
+}
+p.wind {
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #BDDBD4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    
+}

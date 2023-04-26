@@ -8,7 +8,7 @@ const myViewer = document.querySelector('#viewer')
 
 //nav items 
 fruits.forEach(fruits => {
-    //console.log(flower)
+    //console.log(fruits)
     const myButton = document.createElement('button')
     myButton.textContent = fruits.title
     myButton.addEventListener('click', () => showFruits(fruits))
@@ -40,14 +40,14 @@ function showFruits(fruits) {
         theGrown.textContent = grown
         flowerGrown.appendChild(theGrown)
     })
+
     fruitsSection.appendChild(fruitsName)
     fruitsSection.appendChild(fruitsPhoto)
     fruitsSection.appendChild(fruitsPrice)
-    fruitsSection.appendChild(ffruitsDescription)
+    fruitsSection.appendChild(fruitsDescription)
     fruitsSection.appendChild(fruitsGrownName)
     fruitsSection.appendChild(fruitsGrown)
     myViewer.textContent = ""
     myViewer.appendChild(fruitsSection)
-
 
 } //end
