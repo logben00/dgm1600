@@ -66,7 +66,7 @@ export const fruits = [
   },
   {
     "title": "Watermelon",
-    "photo": "watermelon.jpg",
+    "photo": "watermelon.png",
     "price": "$5.00",
     "description": "Watermelons are a juicy and refreshing fruit that is known for its sweet taste and high water content.",
     "grown": [

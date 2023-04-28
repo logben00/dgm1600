@@ -23,6 +23,8 @@ function showFruits(fruits) {
     let fruitsPhoto= document.createElement ("img")
     let fruitsPrice = document.createElement ("p")
     let fruitsDescription = document.createElement ('p')
+    let fruitsGrownName = document.createElement ('p')
+
     let fruitsColorsName = document.createElement('p')
     let fruitsColors = document.createElement ("url")
     
@@ -32,21 +34,21 @@ function showFruits(fruits) {
     fruitsPhoto.alt = fruits.first
     fruitsPrice.textContent = `Price: ${fruits.price}`
     fruitsDescription.textContent = `Description: ${fruits.description}`
-    fruitsGrownName.textContent = `Grown: `
+    fruitsGrownName.textContent = `Grown: ${fruits.grown}`
 
-    fruits.colors.forEach(grown => {
-        //console.log(grown)
+   /* fruits.colors.forEach(grown => {
+        console.log(grown)
         let theGrown = document.createElement('li')
         theGrown.textContent = grown
         flowerGrown.appendChild(theGrown)
-    })
+    })*/
 
     fruitsSection.appendChild(fruitsName)
     fruitsSection.appendChild(fruitsPhoto)
     fruitsSection.appendChild(fruitsPrice)
     fruitsSection.appendChild(fruitsDescription)
     fruitsSection.appendChild(fruitsGrownName)
-    fruitsSection.appendChild(fruitsGrown)
+   // fruitsSection.appendChild(fruitsGrown)
     myViewer.textContent = ""
     myViewer.appendChild(fruitsSection)
 
